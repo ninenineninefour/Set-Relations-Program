@@ -1,0 +1,22 @@
+8		<- Number of elements in the relation. The matrix is square, so only one number is required.
+1 0 0 0 0 0 0 0 <- Start of the matrix. Each one or zero should be seperated by a space or a linebreak.
+0 1 0 0 0 0 0 0    This can be arranged in any fashion (even on the same line), but doing it by row
+0 0 1 0 0 0 0 0    is more human-readable. Any tokens other than "1" or "0" are discarded.
+0 0 0 1 0 0 0 0
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 0
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 1
+
+THINGS THAT CAUSE ERRORS:
+ - Something other than the dimensions as the first token of the file
+ - Having fewer than n^2 ones or zeroes (n = # of elements)
+ - Extremely large number of elements. In theory, it should handle up to 2^32-1 (maximum signed 32-bit
+   int), but I imagine you'd run into errors long before then. Also, it would probably take a very,
+   very long time.
+
+THINGS THAT CAUSE ODD EFFECTS BUT STILL WORK:
+ - Having more than n^2 ones or zeroes
+   > The program will ignore any ones or zeroes beyond the (n^2)th element.
+ - Having 0 elements
+   > I mean, sure, I guess that's valid, but why bother at that point?

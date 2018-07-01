@@ -1,0 +1,248 @@
+Select an option:
+ 1) Enter a relation matrix manually
+ 2) Load relation matrix from file
+ 3) Switch to ASCII box drawing
+ 4) Exit
+  >2
+Enter filename:
+>relation1.txt
+Loaded relation matrix:
+
+┌                   ┐
+│  1 0 0 0 0 0 0 0  │
+│  0 1 0 0 0 0 0 0  │
+│  0 0 1 0 0 0 0 0  │
+│  0 0 0 1 0 0 0 0  │
+│  0 0 0 0 1 0 0 0  │
+│  0 0 0 0 0 1 0 0  │
+│  0 0 0 0 0 0 1 0  │
+│  0 0 0 0 0 0 0 1  │
+└                   ┘
+
+This relation is reflexive.
+This relation is symmetric.
+This relation is antisymmetric.
+This relation is transitive.
+This relation is an equivalence relation.
+
+The equivalence classes of this relation are:
+{{1},{2},{3},{4},{5},{6},{7},{8}}
+
+Press enter to continue...
+
+Select an option:
+ 1) Enter a relation matrix manually
+ 2) Load relation matrix from file
+ 3) Switch to ASCII box drawing
+ 4) Exit
+  >2
+Enter filename:
+>relation2.txt
+Loaded relation matrix:
+
+┌                   ┐
+│  1 0 0 1 0 0 0 1  │
+│  0 1 0 0 0 1 0 0  │
+│  0 0 1 0 0 0 0 0  │
+│  0 0 0 0 0 0 0 1  │
+│  0 0 0 0 1 0 1 0  │
+│  0 0 0 0 0 1 0 0  │
+│  0 0 0 0 0 0 1 0  │
+│  0 0 0 0 0 0 0 0  │
+└                   ┘
+
+This relation is NOT reflexive.
+This relation is NOT symmetric.
+This relation is antisymmetric.
+This relation is transitive.
+This relation is NOT an equivalence relation.
+
+Press enter to continue...
+
+Select an option:
+ 1) Enter a relation matrix manually
+ 2) Load relation matrix from file
+ 3) Switch to ASCII box drawing
+ 4) Exit
+  >2
+Enter filename:
+>relation3.txt
+Loaded relation matrix:
+
+┌                   ┐
+│  1 0 0 0 0 1 0 0  │
+│  0 1 0 1 0 0 0 1  │
+│  0 0 1 0 1 0 0 0  │
+│  0 1 0 1 0 0 0 1  │
+│  0 0 1 0 1 0 0 0  │
+│  1 0 0 0 0 1 0 0  │
+│  0 0 1 0 1 0 0 0  │
+│  0 1 0 1 0 0 0 1  │
+└                   ┘
+
+This relation is NOT reflexive.
+This relation is NOT symmetric.
+This relation is NOT antisymmetric.
+This relation is transitive.
+This relation is NOT an equivalence relation.
+
+Press enter to continue...
+
+Select an option:
+ 1) Enter a relation matrix manually
+ 2) Load relation matrix from file
+ 3) Switch to ASCII box drawing
+ 4) Exit
+  >2
+Enter filename:
+>relation4.txt
+Loaded relation matrix:
+
+┌                   ┐
+│  1 1 0 1 0 1 0 0  │
+│  1 1 0 1 0 1 0 0  │
+│  0 0 1 0 0 0 1 0  │
+│  1 1 0 1 0 1 0 0  │
+│  0 0 1 0 1 0 0 0  │
+│  1 1 0 1 0 1 0 0  │
+│  0 0 0 0 0 0 1 0  │
+│  0 0 0 0 0 0 0 1  │
+└                   ┘
+
+This relation is reflexive.
+This relation is NOT symmetric.
+This relation is NOT antisymmetric.
+This relation is NOT transitive.
+This relation is NOT an equivalence relation.
+
+The transitive closure of this relation is:
+
+┌                   ┐
+│  1 1 0 1 0 1 0 0  │
+│  1 1 0 1 0 1 0 0  │
+│  0 0 1 0 0 0 1 0  │
+│  1 1 0 1 0 1 0 0  │
+│  0 0 1 0 1 0 1 0  │
+│  1 1 0 1 0 1 0 0  │
+│  0 0 0 0 0 0 1 0  │
+│  0 0 0 0 0 0 0 1  │
+└                   ┘
+
+Press enter to continue...
+
+Select an option:
+ 1) Enter a relation matrix manually
+ 2) Load relation matrix from file
+ 3) Switch to ASCII box drawing
+ 4) Exit
+  >2
+Enter filename:
+>relation5.txt
+Loaded relation matrix:
+
+┌                   ┐
+│  1 1 1 0 0 1 1 0  │
+│  1 1 1 0 0 1 1 0  │
+│  1 1 1 0 0 1 1 0  │
+│  0 0 0 1 0 0 0 1  │
+│  0 0 0 0 0 0 0 1  │
+│  1 1 1 0 0 1 1 0  │
+│  1 1 1 0 0 1 1 0  │
+│  0 0 0 1 1 0 0 1  │
+└                   ┘
+
+This relation is NOT reflexive.
+This relation is symmetric.
+This relation is NOT antisymmetric.
+This relation is NOT transitive.
+This relation is NOT an equivalence relation.
+
+The transitive closure of this relation is:
+
+┌                   ┐
+│  1 1 1 0 0 1 1 0  │
+│  1 1 1 0 0 1 1 0  │
+│  1 1 1 0 0 1 1 0  │
+│  0 0 0 1 1 0 0 1  │
+│  0 0 0 1 1 0 0 1  │
+│  1 1 1 0 0 1 1 0  │
+│  1 1 1 0 0 1 1 0  │
+│  0 0 0 1 1 0 0 1  │
+└                   ┘
+
+Press enter to continue...
+
+Select an option:
+ 1) Enter a relation matrix manually
+ 2) Load relation matrix from file
+ 3) Switch to ASCII box drawing
+ 4) Exit
+  >2
+Enter filename:
+>relation6.txt
+Loaded relation matrix:
+
+┌                   ┐
+│  1 0 0 0 0 1 0 0  │
+│  0 1 1 1 0 0 1 1  │
+│  0 1 1 1 0 0 1 1  │
+│  0 1 1 1 0 0 1 1  │
+│  0 0 0 0 1 0 0 0  │
+│  1 0 0 0 0 1 0 0  │
+│  0 1 1 1 0 0 1 1  │
+│  0 1 1 1 0 0 1 1  │
+└                   ┘
+
+This relation is reflexive.
+This relation is symmetric.
+This relation is NOT antisymmetric.
+This relation is transitive.
+This relation is an equivalence relation.
+
+The equivalence classes of this relation are:
+{{1,6},{2,3,4,7,8},{5}}
+
+Press enter to continue...
+
+Select an option:
+ 1) Enter a relation matrix manually
+ 2) Load relation matrix from file
+ 3) Switch to ASCII box drawing
+ 4) Exit
+  >1
+Enter number of variables:
+  >3
+Enter values for each row, separated by spaces:
+1 >1 0 1
+2 >0 1 0
+3 >1 1 0
+Loaded relation matrix:
+
+┌         ┐
+│  1 0 1  │
+│  0 1 0  │
+│  1 1 0  │
+└         ┘
+
+This relation is NOT reflexive.
+This relation is NOT symmetric.
+This relation is NOT antisymmetric.
+This relation is NOT transitive.
+This relation is NOT an equivalence relation.
+
+The transitive closure of this relation is:
+
+┌         ┐
+│  1 1 1  │
+│  0 1 0  │
+│  1 1 1  │
+└         ┘
+
+Press enter to continue...
+
+Select an option:
+ 1) Enter a relation matrix manually
+ 2) Load relation matrix from file
+ 3) Switch to ASCII box drawing
+ 4) Exit
+  >4
